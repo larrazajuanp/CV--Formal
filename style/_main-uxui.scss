@@ -1,0 +1,30 @@
+
+
+.main-uxui{
+    width: 90%;
+    margin: 0 auto;
+    min-height: 90vh;
+    @include flex(space-between,center,row);
+    flex-wrap: wrap;
+    h2{
+        font-size: 2.3rem;
+        margin: 2rem;
+    }
+    img{
+        border-radius: 1.5rem;
+        box-shadow: 2px 5px 5px rgba(0,0,0,0.2);
+    }
+}
+
+
+.SUIT,
+.verycheck,
+.pizzaWhiskers,
+.rutaDigitalizacion,
+.homeForPets,
+.fluxIt {
+    flex: 1 1 40rem;
+    margin: 4rem 0;
+    text-align: center;
+}
+

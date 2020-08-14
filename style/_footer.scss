@@ -1,0 +1,18 @@
+footer{
+    min-height: 10vh;
+    background: $background-color;
+    color: white;
+    padding: 0% 5%;
+    @include flex(space-between,center,row);
+    h4{
+        font-size: 1.5rem;
+    }
+
+    ul{
+        @include flex(space-around,center,row);
+        li{
+            margin: 0 2rem;
+        }
+    }
+
+}

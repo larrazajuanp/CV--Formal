@@ -1,0 +1,205 @@
+// Variables
+$grey-text: #5c5757;
+$background-color:#154353;
+
+//Fonts
+$h1:3rem;
+$h2:2.7rem;
+$h3:2.5rem;
+$h4:2.3rem;
+$text:2rem;
+
+
+@mixin flex($justify,$align,$direction){
+    display: flex;
+    justify-content: $justify;
+    align-items: $align;
+    flex-direction: $direction;
+}
+
+// Importados
+@import 'global';
+@import "intro";
+@import 'main-uxui';
+@import 'main-front';
+@import 'contact';
+@import 'footer';
+
+
+// Media 
+
+@media screen and (max-width: 1188px){
+    html{
+        font-size: 53%;
+    }
+    .splash{
+        display: none;
+    }
+    svg{
+        width: 80%;
+    }
+    nav{
+        width: 100%;
+    }
+    #logo-personal{
+        width: 60px;
+    }
+}
+
+@media screen and (min-width:753px) and (max-width:768px){
+    .main-front{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        h2{
+            font-size: 2rem;
+        }
+        .cv8bit img{
+            width: 100%;
+            height: 100%;
+        }
+        .viajandoSiempre img{
+            width: 100%;
+            height: 100%;
+        }
+        .verycheck img{
+            width: 100%;
+            height: 100%;
+        }
+        .podcast img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 752px){
+    html{
+        font-size: 45%;
+    }
+    .main-head{
+        width: 100%;
+    }
+    nav{
+        #logo-personal{
+            width: 60px;
+            @include flex(center,center,column);
+            text-align: center;
+        }
+        ul{
+            text-align: center;
+        }
+    }
+    svg{
+        margin-top: 3rem;
+        height: 60%;
+    }
+    .main-front{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        h2{
+            font-size: 2rem;
+        }
+        .cv8bit img{
+            width: 100%;
+            height: 100%;
+        }
+        .viajandoSiempre img{
+            width: 100%;
+            height: 100%;
+        }
+        .verycheck img{
+            width: 100%;
+            height: 100%;
+        }
+        .podcast img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+    
+}
+
+
+@media screen and (max-width: 500px){
+    nav{
+        @include flex(center,center,row);
+        #logo-personal{
+            width: 50px;
+            height: 50px;
+            flex: 1 1 20rem;
+            margin: 1rem 0;
+        }
+        ul{
+            flex: 1 1 40rem;
+            margin-bottom: 4rem;
+        }
+    }
+    .intro-text{
+        text-align: center;
+    }
+    .intro-social{
+        @include flex(center,center,row);
+    }
+    .intro-img{
+        text-align: center;
+    }
+
+    .main-uxui{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        h2{
+            font-size: 2rem;
+        }
+        .SUIT img{
+            width: 90%;
+        }
+        .verycheck img{
+            width: 100%;
+        }
+        .pizzaWhiskers img{
+            width: 90%;
+        }
+        .rutaDigitalizacion img{
+            width: 90%;
+        }
+        .homeForPets img{
+            width: 90%;
+        }
+        .fluxIt img{
+            width: 90%;
+        }
+
+    }
+
+    .main-front{
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        text-align: center;
+        h2{
+            font-size: 2rem;
+        }
+        .cv8bit img{
+            width: 100%;
+            height: 100%;
+        }
+        .viajandoSiempre img{
+            width: 100%;
+            height: 100%;
+        }
+        .verycheck img{
+            width: 100%;
+            height: 100%;
+        }
+        .podcast img{
+            width: 100%;
+            height: 100%;
+        }
+    }
+}
+

@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+}
+
+li,
+button,
+p,
+label,
+input,
+a{
+    font-size: $text;
+}
+
+h2{
+    font-size:$h2;
+    color: $background-color;
+}
+
+h3{
+    font-size: $h4;
+    color: $grey-text;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
