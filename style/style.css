@@ -355,6 +355,50 @@ nav ul {
           flex: 1 1 40rem;
   margin: 4rem 0;
   text-align: center;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.SUIT img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.verycheck img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pizzaWhiskers img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.rutaDigitalizacion img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.homeForPets img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.fluxIt img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .main-front {
@@ -398,6 +442,34 @@ nav ul {
           flex: 1 1 40rem;
   margin: 4rem 2rem;
   text-align: center;
+}
+
+.cv8bit img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.viajandoSiempre img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.verycheck img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+}
+
+.podcast img:hover {
+  -webkit-transform: scale(1.02);
+          transform: scale(1.02);
+  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 .main-form {

@@ -26,5 +26,36 @@
     flex: 1 1 40rem;
     margin: 4rem 0;
     text-align: center;
+    transition: all 0.5s ease;
 }
 
+
+.SUIT img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.verycheck img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.pizzaWhiskers img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.rutaDigitalizacion img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.homeForPets img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
+
+.fluxIt img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}
