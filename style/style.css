@@ -528,7 +528,7 @@ nav ul {
   font-size: 1.5rem;
 }
 
-.main-form form button {
+.main-form form #btn-send {
   width: 100%;
   border: none;
   padding: 1rem 2rem;
@@ -537,7 +537,7 @@ nav ul {
   color: white;
 }
 
-.main-form form button:hover {
+.main-form form #btn-send:hover {
   background: #154353;
   cursor: pointer;
 }
