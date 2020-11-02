@@ -1,5 +1,5 @@
 // Variables
-const eightBit = document.querySelector('.viajandoSiempre');
+/*const eightBit = document.querySelector('.viajandoSiempre');
 const overlay = document.querySelector('.overlay');
 const imgViajando = document.getElementById('viajandoSiempre');
 
@@ -20,4 +20,4 @@ eightBit.addEventListener('mouseover', (e) => {
         imgViajando.style.opacity = 1;
     })
 
-})
+})*/
