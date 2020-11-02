@@ -72,6 +72,11 @@ $text:2rem;
             height: 100%;
         }
     }
+    .main-front-tailwind{
+        img{
+            margin-left: 1rem;
+        }
+    }
 }
 
 @media screen and (max-width: 752px){
@@ -201,5 +206,9 @@ $text:2rem;
             height: 100%;
         }
     }
+    .main-front-tailwind{
+        img{
+            margin-left: 1rem;
+        }
+    }
 }
-
