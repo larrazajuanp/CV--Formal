@@ -13,8 +13,27 @@
         box-shadow: 2px 5px 5px rgba(0,0,0,0.2);
     }
 }
-
-.cv8bit,
+.main-front-tailwind{
+    min-height: 150vh;
+    h2{
+        font-size: 1.5rem;
+    }
+    h1{
+        font-size: 1.8rem;
+    }
+    img{
+        height: 18rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+    span{
+        img{
+            height: 2.4rem;
+        }
+    }
+}
+/*.cv8bit,
 .viajandoSiempre,
 .verycheck,
 .podcast{
@@ -24,7 +43,7 @@
 }
 
 .cv8bit img:hover{
-    transform:scale(1.02);
+    transform:scale(1.01);
     box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
 }
 
@@ -41,5 +60,4 @@
 .podcast img:hover{
     transform:scale(1.02);
     box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
-}
-
+}*/

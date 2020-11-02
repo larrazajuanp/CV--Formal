@@ -433,45 +433,58 @@ nav ul {
           box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.2);
 }
 
-.cv8bit,
+.main-front-tailwind {
+  min-height: 150vh;
+}
+
+.main-front-tailwind h2 {
+  font-size: 1.5rem;
+}
+
+.main-front-tailwind h1 {
+  font-size: 1.8rem;
+}
+
+.main-front-tailwind img {
+  height: 18rem;
+}
+
+.main-front-tailwind p {
+  font-size: 1.5rem;
+}
+
+.main-front-tailwind span img {
+  height: 2.4rem;
+}
+
+/*.cv8bit,
 .viajandoSiempre,
 .verycheck,
-.podcast {
-  -webkit-box-flex: 1;
-      -ms-flex: 1 1 40rem;
-          flex: 1 1 40rem;
-  margin: 4rem 2rem;
-  text-align: center;
+.podcast{
+    flex: 1 1 40rem;
+    margin: 4rem 2rem;
+    text-align: center;
 }
 
-.cv8bit img:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+.cv8bit img:hover{
+    transform:scale(1.01);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
 }
 
-.viajandoSiempre img:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+.viajandoSiempre img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
 }
 
-.verycheck img:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
+.verycheck img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
 }
 
-.podcast img:hover {
-  -webkit-transform: scale(1.02);
-          transform: scale(1.02);
-  -webkit-box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-          box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
-}
-
+.podcast img:hover{
+    transform:scale(1.02);
+    box-shadow: 2px 5px 5px rgba(0,0,0,0.3);
+}*/
 .main-form {
   min-height: 70vh;
   display: -webkit-box;
