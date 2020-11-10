@@ -559,6 +559,19 @@ nav ul {
   cursor: pointer;
 }
 
+.banner a {
+  margin: 5rem auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 footer {
   min-height: 10vh;
   background: #154353;
@@ -813,6 +826,9 @@ footer ul li {
   }
   .main-front-tailwind img {
     margin-left: 1rem;
+  }
+  .banner a img {
+    max-width: 80%;
   }
 }
 /*# sourceMappingURL=style.css.map */
