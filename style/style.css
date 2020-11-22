@@ -401,6 +401,33 @@ nav ul {
           box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
+#anses {
+  position: relative;
+}
+
+#anses a {
+  position: absolute;
+  right: -17rem;
+}
+
+#hfp {
+  position: relative;
+}
+
+#hfp a {
+  position: absolute;
+  right: -17rem;
+}
+
+#pizza {
+  position: relative;
+}
+
+#pizza a {
+  position: absolute;
+  right: -17rem;
+}
+
 .main-front {
   width: 90%;
   margin: 0 auto;
