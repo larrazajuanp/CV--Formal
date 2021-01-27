@@ -40,3 +40,19 @@ a{
     text-decoration: none;
     color: black;
 }
+button{
+    width: 49rem;
+    padding: 1rem;
+    border-radius: 1rem;
+    border: none;
+    margin-top: 2rem;
+    font-family: 'Nunito';
+    cursor: pointer;
+    color: white;
+    background-color: #134657;
+    font-size: $text;
+}
+button:hover{
+    background-color: #0e3441;
+    box-shadow: rgba(12, 82, 85, 0.2);
+}
