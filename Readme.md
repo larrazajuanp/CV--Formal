@@ -7,7 +7,7 @@ _Hice el desarrollo de mi sitio web personal, donde comparto y describo mis trab
 _Está cada uno de mis trabajos realizados, desde los cursos en Coderhouse, como challenge técnicos y proyectos colaborativos de los cuales forme parte._
 
 
-## Front-end
+## Front-end 💻
 
 _En esta sección, podrán encontrar mis primeros desarrollos web. Las tecnologías utilizadas son HTML - CSS - SASS - Tailwind - JavaScript._
 
