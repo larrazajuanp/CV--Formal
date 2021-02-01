@@ -21,3 +21,9 @@ eightBit.addEventListener('mouseover', (e) => {
     })
 
 })*/
+
+
+const year = new Date().getFullYear();
+console.log(year)
+
+document.querySelector('.actualYear').innerHTML = year
