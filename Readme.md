@@ -11,6 +11,9 @@ _Está cada uno de mis trabajos realizados, desde los cursos en Coderhouse, como
 
 _En esta sección, podrán encontrar mis primeros desarrollos web. Las tecnologías utilizadas son HTML - CSS - SASS - Tailwind - JavaScript._
 
+## Visitar la web 💻
+
+_https://jplarraza-cv.netlify.app/_
 
 ## Autor ✒️
 
